@@ -47,6 +47,10 @@ header em{
   animation-fill-mode: forwards;
   animation-delay: 5s;
 }
+#aboutMe img {
+  height: 250px;
+  width: 250px;
+}
 
 @keyframes fadeIn {
   0% {
