@@ -37,6 +37,7 @@ header em{
   font-family: 'Comfortaa', cursive;
   font-size: 20px;
   text-decoration: underline;
+  padding: 10px;
 }
 
 #aboutMe {
@@ -47,9 +48,16 @@ header em{
   animation-fill-mode: forwards;
   animation-delay: 5s;
 }
+#aboutMe {
+  background-color: #AEB7B3;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 35px;
+  
+}
 #aboutMe img {
-  height: 250px;
-  width: 250px;
+  max-height: 200px;
+  float: right;
 }
 
 @keyframes fadeIn {
@@ -62,4 +70,7 @@ header em{
 }
 .descriptions {
   font-family: 'Ruda', sans-serif;
+  padding: 10px;
 }
+
+
