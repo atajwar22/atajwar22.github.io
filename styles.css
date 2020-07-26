@@ -32,35 +32,30 @@ body{
 header em{
     font-size: 30px;
 }
-
-.subHeadings {
-  font-family: 'Comfortaa', cursive;
-  font-size: 20px;
-  text-decoration: underline;
-  padding: 10px;
-}
-
-#aboutMe {
-  text-transform: none;
-  margin: 0 20px;
-  opacity: 0;
-  animation: fadeIn 2s;
-  animation-fill-mode: forwards;
-  animation-delay: 5s;
-}
-#aboutMe {
+.container {
   background-color: #AEB7B3;
   border-style: solid;
   border-width: 2px;
   border-radius: 35px;
+  padding: 10px;
   
 }
-#aboutMe img {
-  max-height: 200px;
-  float: right;
+
+.subHeadings {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  text-align: center;
 }
 
-@keyframes fadeIn {
+#aboutMe {
+  text-transform: none;
+  margin: 20px 20px;
+  opacity: 0;
+  animation: fadeIn1 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+@keyframes fadeIn1 {
   0% {
     opacity: 0;
   }
@@ -68,9 +63,37 @@ header em{
     opacity:1;
   }
 }
+
+#aboutMe img {
+  height: 170px;
+  float: right;
+}
+
 .descriptions {
   font-family: 'Ruda', sans-serif;
-  padding: 10px;
+}
+
+.descriptions em {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#skillsNstuff {
+  text-transform: none;
+  margin: 20px 20px;
+  opacity: 0;
+  animation: fadeIn2 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
 
