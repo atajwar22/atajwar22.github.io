@@ -64,9 +64,13 @@ header em{
   }
 }
 
-#aboutMe img {
+#oldMe {
   height: 200px;
   float: right;
+}
+#youngMe {
+  height: 200px;
+  float: left;
 }
 
 .descriptions {
@@ -134,6 +138,7 @@ header em{
 
 #contactMe img{
   height: 75px;
+  
 }
 
 #contactMe a{
