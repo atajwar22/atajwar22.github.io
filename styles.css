@@ -65,7 +65,7 @@ header em{
 }
 
 #aboutMe img {
-  height: 170px;
+  height: 200px;
   float: right;
 }
 
@@ -84,7 +84,7 @@ header em{
   opacity: 0;
   animation: fadeIn2 4s;
   animation-fill-mode: forwards;
-  animation-delay: 8s;
+  animation-delay: 7s;
 }
 
 @keyframes fadeIn2 {
@@ -96,4 +96,47 @@ header em{
   }
 }
 
+#aboutMe a{
+  color: #FFF9A5;
+}
+
+#guitarPic {
+  float: left;
+  height: 250px;
+}
+
+#skillsNstuff ul {
+  overflow: hidden; 
+}
+
+#debate {
+  float: right;
+  height: 250px;
+}
+
+#contactMe {
+  text-transform: none;
+  margin: 20px 20px;
+  opacity: 0;
+  animation: fadeIn3 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 9s;
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#contactMe img{
+  height: 75px;
+}
+
+#contactMe a{
+  text-decoration: none;
+}
 
