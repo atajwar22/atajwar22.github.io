@@ -33,7 +33,7 @@ header em{
     font-size: 30px;
 }
 .container {
-  background-color: #AEB7B3;
+  background-color: #06063c;
   border-style: solid;
   border-width: 2px;
   border-radius: 35px;
@@ -67,10 +67,12 @@ header em{
 #oldMe {
   height: 200px;
   float: right;
+  margin: 15px;
 }
 #youngMe {
   height: 200px;
   float: left;
+  margin: 15px;
 }
 
 .descriptions {
@@ -136,8 +138,9 @@ header em{
   }
 }
 
-#contactMe img{
+#contactMe i{
   height: 75px;
+  color:  #FFF9A5;
   
 }
 
