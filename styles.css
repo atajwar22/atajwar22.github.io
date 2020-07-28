@@ -1,6 +1,6 @@
 body{
-    background-color: #1A8FE3;
-    color: #FFF9A5;
+    background-color: #A7BED3;
+    color: black;
 }
 
 .welcomeText {
@@ -33,7 +33,7 @@ header em{
     font-size: 30px;
 }
 .container {
-  background-color: #06063c;
+  background-color: #DCE0D9;
   border-style: solid;
   border-width: 2px;
   border-radius: 35px;
@@ -103,7 +103,7 @@ header em{
 }
 
 #aboutMe a{
-  color: #FFF9A5;
+  color: #D7B377;
 }
 
 #guitarPic {
@@ -148,3 +148,6 @@ header em{
   text-decoration: none;
 }
 
+img {
+  border-radius: 25px;
+}
