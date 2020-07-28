@@ -3,6 +3,10 @@ body{
     color: black;
 }
 
+#favicon {
+  height: 25px;
+}
+
 .welcomeText {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -150,4 +154,25 @@ header em{
 
 img {
   border-radius: 25px;
+}
+
+.copyRight {
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  text-transform: none;
+  margin: 20px 20px;
+  opacity: 0;
+  animation: fadeIn4 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+}
+
+@keyframes fadeIn4 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
 }
