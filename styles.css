@@ -177,3 +177,26 @@ img {
     opacity:1;
   }
 }
+.button {
+  text-transform: none;
+  opacity: 0;
+  animation: fadeIn3 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 9s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ruda', sans-serif;
+}
+button {
+  font-family: 'Ruda', sans-serif;
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
+}
