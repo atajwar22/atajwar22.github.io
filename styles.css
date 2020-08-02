@@ -1,5 +1,5 @@
 body{
-    background-color: #A7BED3;
+    background-color: #a4caec;
     color: black;
 }
 
@@ -195,7 +195,7 @@ button {
   border-radius: 10px;
   font-size: 17px;
   border-color: black;
-  background-color: #DCE0D9 ;
+  background-color: white ;
 }
 
 @keyframes fadeIn3 {
@@ -205,4 +205,10 @@ button {
   100% {
     opacity:1;
   }
+}
+#guitar{
+  /*vertical-align: bottom;
+  display: table-cell;*/
+  font-family: 'Ruda', sans-serif;
+
 }
