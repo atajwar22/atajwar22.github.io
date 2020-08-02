@@ -178,6 +178,7 @@ img {
   }
 }
 .button {
+  white-space: nowrap;
   text-transform: none;
   opacity: 0;
   animation: fadeIn3 4s;
@@ -190,6 +191,11 @@ img {
 }
 button {
   font-family: 'Ruda', sans-serif;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 17px;
+  border-color: black;
+  background-color: #DCE0D9 ;
 }
 
 @keyframes fadeIn3 {
