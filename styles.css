@@ -146,6 +146,7 @@ header em{
 #contactMe i{
   height: 75px;
   color:  #FFF9A5;
+  margin: 15px;
   
 }
 
@@ -160,7 +161,7 @@ img {
 .copyRight {
   font-family: 'Mulish', sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
   text-transform: none;
   margin: 20px 20px;
   opacity: 0;
@@ -191,9 +192,9 @@ img {
 }
 button {
   font-family: 'Ruda', sans-serif;
-  height: 25px;
+  height: 30px;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 20px;
   border-color: black;
   background-color: white ;
 }
@@ -213,9 +214,9 @@ button {
 
 }
 
-@media(max-width: 750px) {
+/*@media(max-width: 750px) {
   button {
     font-size: 40px;
     height: 45px;
   }
-}
+}*/
