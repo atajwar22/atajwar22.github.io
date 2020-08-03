@@ -212,3 +212,10 @@ button {
   font-family: 'Ruda', sans-serif;
 
 }
+
+@media(max-width: 750px) {
+  button {
+    font-size: 40px;
+    height: 45px;
+  }
+}

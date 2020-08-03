@@ -18,11 +18,11 @@ guitarPic.addEventListener("mouseout", outPic);
 //BUTTON HOVER EFFECT
 let button = document.querySelector("button");
 function mouseOver() {
-  button.style.backgroundColor = "#DCE0D9";
+  button.style.backgroundColor = "#D8DBE2";
   button.style.borderColor = "#FFF9A5";
 }
 function mouseOut() {
-  button.style.backgroundColor = "#white";
+  button.style.backgroundColor = "white";
   button.style.borderColor = "black";
 }
 button.addEventListener("mouseover", mouseOver);
