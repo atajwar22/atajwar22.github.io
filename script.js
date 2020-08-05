@@ -1,3 +1,22 @@
+let quoteOTD = document.querySelector("#quoteOTD");
+fetch("https://type.fit/api/quotes")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(data) {
+    let i = Math.floor(Math.random() * 1644);
+    let quote = data[i].text;
+    let author = data[i].author;
+    if (author == "null") {
+      author = "John Doe";}
+    let p = document.createElement("p");
+    p.innerHTML = '"' +  quote + '"' + " - " + author;
+    quoteOTD.appendChild(p);
+   // console.log(p);
+
+
+  });
+  
 let guitarPic = document.querySelector("#guitarPic")
 let guitar = document.querySelector("#guitar");
 let hoverText = document.createTextNode("Yes, I know my hair was terrible, and NO, that is not my dad!");

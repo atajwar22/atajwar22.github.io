@@ -8,9 +8,11 @@ body{
 }
 
 .welcomeText {
+    padding: 5px;
     text-align: center;
     /*font-family: 'Poppins', sans-serif;*/
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     overflow: hidden;
     border-right: .15em solid black; 
@@ -35,7 +37,7 @@ body{
 
 
 header em{
-    font-size: 30px;
+    font-size: 29px;
 }
 .container {
   background-color: #DCE0D9;
@@ -212,6 +214,32 @@ button {
   display: table-cell;*/
   font-family: 'Ruda', sans-serif;
 
+}
+
+#quoteOTD {
+  opacity: 0;
+  animation: fadeIn5 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 9.5s;
+  margin: auto;
+  width: fit-content;
+}
+#quoteOTD h3{
+  font-size: 20px;
+}
+#quoteOTD p {
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+@keyframes fadeIn5 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
 /*@media(max-width: 750px) {
