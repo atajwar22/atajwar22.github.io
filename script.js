@@ -7,8 +7,8 @@ fetch("https://type.fit/api/quotes")
     let i = Math.floor(Math.random() * 1644);
     let quote = data[i].text;
     let author = data[i].author;
-    if (author == "null") {
-      author = "John Doe";}
+    if (data[i].author == "null") {
+      data[i].author = "Unknown";}
     let p = document.createElement("p");
     p.innerHTML = '"' +  quote + '"' + " - " + author;
     quoteOTD.appendChild(p);
