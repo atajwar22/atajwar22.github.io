@@ -63,7 +63,7 @@ header em{
 #aboutMe {
   text-transform: none;
   margin: 20px 20px;
-  opacity: 0;
+  opacity: 0; 
   animation: fadeIn1 4s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
@@ -76,7 +76,6 @@ header em{
     opacity:1;
   }
 }
-
 #oldMe {
   height: 200px;
   float: right;
