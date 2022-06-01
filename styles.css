@@ -134,10 +134,6 @@ header em{
   overflow: hidden;
 }
 
-#debate {
-  float: right;
-  height: 250px;
-}
 
 #contactMe {
   text-transform: none;
@@ -221,12 +217,7 @@ button {
     opacity:1;
   }
 }
-#guitar{
-  /*vertical-align: bottom;
-  display: table-cell;*/
-  font-family: 'Ruda', sans-serif;
 
-}
 
 #quoteOTD {
   opacity: 0;
