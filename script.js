@@ -17,22 +17,6 @@ fetch("https://type.fit/api/quotes")
 
   });
   
-let guitarPic = document.querySelector("#guitarPic")
-let guitar = document.querySelector("#guitar");
-let hoverText = document.createTextNode("Yes, I know my hair was terrible, and NO, that is not my dad!");
-
-function onPic() {
-   guitar.appendChild(hoverText);
-   guitar.style.color = "#F2B880";
-   guitar.style.textAlign = "center";
-   guitar.style.display = "inline-block";
-}
-function outPic() {
-    guitar.style.display = "none";
-}
-
-guitarPic.addEventListener("mouseover", onPic);
-guitarPic.addEventListener("mouseout", outPic);
 
 //BUTTON HOVER EFFECT
 let button = document.querySelector("button");
