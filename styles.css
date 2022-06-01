@@ -15,18 +15,18 @@ body{
     /*font-family: 'Merriweather', serif;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
-    
+
 }
 
 .welcomeText p {
   overflow: hidden;
   display: inline-block;
-    border-right: .15em solid black; 
-    white-space: nowrap; 
+    border-right: .15em solid black;
+    white-space: nowrap;
     margin: auto;
     letter-spacing: .20em;
-  
-    animation: 
+
+    animation:
       typing 7s steps(40, end),
       blink-caret .75s step-end infinite;
 }
@@ -51,7 +51,7 @@ header em{
   border-width: 2px;
   border-radius: 35px;
   padding: 10px;
-  
+
 }
 
 .subHeadings {
@@ -63,7 +63,7 @@ header em{
 #aboutMe {
   text-transform: none;
   margin: 20px 20px;
-  opacity: 0; 
+  opacity: 0;
   animation: fadeIn1 4s;
   animation-fill-mode: forwards;
   animation-delay: 5s;
@@ -125,7 +125,7 @@ header em{
 }
 
 #skillsNstuff ul {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 #debate {
@@ -153,9 +153,9 @@ header em{
 
 #contactMe i{
   height: 75px;
-  color:  #FFF9A5;
+  color:  black;
   margin: 15px;
-  
+
 }
 
 #contactMe a{
