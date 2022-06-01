@@ -76,14 +76,20 @@ header em{
     opacity:1;
   }
 }
-#oldMe {
-  height: 200px;
+#nowMe {
+  height: 150px;
   float: right;
   margin: 15px;
 }
 #youngMe {
-  height: 200px;
+  height: 150px;
   float: left;
+  margin: 15px;
+}
+
+#andoverMe {
+  height: 200px;
+  float: right;
   margin: 15px;
 }
 
@@ -94,7 +100,7 @@ header em{
 .descriptions em {
   font-size: 20px;
   text-decoration: underline;
-  color: #D7B377;
+  color: black;
 }
 
 #skillsNstuff {
